@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="RobotisSimulator.PNG" alt="Screenshot of the Robotics Simulator">
+</p>
+
 # This Robotics Simulator is older than the first Nvidia GPU. Now you can Vibe-Port it
 
 # About
