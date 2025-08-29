@@ -9,12 +9,12 @@ I developed this application as part of my MS thesis work in Artificial Intellig
 
 This application is an object oriented 3D graphical simulator for multiple robotic arms, originally developed using Borland C++ 4.x, and targeting Windows 3.x. Some of the features of the application are:
 - Kinematics simulation for robotic arms (2 different arms are included, and up to 3 can be simulated)
-- 3D rendering and animation (using 3D projections of convex solids, hidden surface removal by sorting visible facets from back to front, and drawing them using polygon-fill commands)
+- 3D rendering and animation (using 2D projections of convex solids, hidden surface removal by sorting visible facets from back to front, and drawing them using polygon-fill commands)
 - Changing the camera position (e.g., rotating the scene and zooming)
 - Voxel based 3D swept volume computation and collision detection
 - A hierarchy of algorithms for online collision detection
 - Ability to control the robot using a teach-pendant UI interface
-- Ability to program trajectories for the robots programmatically using textual input, and also through the teach-pendant tool; saving and replaying the programs
+- Ability to program trajectories for the robots using textual input, and also through the teach-pendant tool; saving and replaying the programs
 - A collision-free and deadlock-free algorithm to coordinate the motions of the multi-robots along their programmed trajectories by injecting wait and synchronization commands
 
 The application is purely geometric and there is no physics/dynamics simulation.
